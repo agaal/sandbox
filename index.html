@@ -5,9 +5,13 @@
 <h1>My First JavaScript</h1>
 
 <button type="button"
-onclick="document.getElementById('demo').innerHTML += Date() + '</BR>'">
+onclick="add()">
 Click me to display Date and Time.</button>
-
+<script>
+function add() {
+    document.getElementById('demo').innerHTML += Date() + '</BR>'              // The function returns the product of p1 and p2
+}
+</script>
 <p id="demo"></p>
 
 </body>
