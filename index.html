@@ -4,14 +4,17 @@
 
 <h1>My First JavaScript</h1>
 
-<button type="button"
-onclick="add()">
-Click me to display Date and Time.</button>
+<button type="button" onclick="add()">Click me to display Date and Time.</button>
+
 <script>
 function add() {
-    document.getElementById('demo').innerHTML += Date() + '</BR>'              // The function returns the product of p1 and p2
+    for(i =0; i<10; i++){
+        document.getElementById('demo').innerHTML += Date() + "</BR>"          
+    }
 }
 </script>
+
+
 <p id="demo"></p>
 
 </body>
