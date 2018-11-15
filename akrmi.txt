@@ -1,1 +1,1 @@
-kézzel szerkesztett lesz a jó
+commit test  kézzel szerkesztett lesz a jó
